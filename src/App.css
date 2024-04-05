@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.App {
+  display:flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  
+}
+
+
+body {
+  background-color: #DCDCDC;
+}
+.calculator {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1.5px solid black;
+}
+
+.calculator > * {
+  border: 1.5px solid black;
+  padding: 24px;
+}
+
+.row {
+  grid-column: 1 / -1 ;
+}
+
+#display {
+  text-align: right;
+  background-color: #CCFEFF;
+}
+
+#clear {
+  text-align: right;
+  background-color: #FFCCCB;
+}
+
+#clear:hover {
+  background-color: #D7A4A3;
+}
+
+.buttons {
+  background-color: grey;
+  text-align: center;
+
+}
+
+.buttons:hover {
+  background-color: #DCDCDC;
+  cursor: pointer;
+  
+}
